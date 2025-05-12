@@ -43,22 +43,13 @@ Provides MCP tools for:
     npm install
     ```
 
-## Running the Server
+## Building the Server
 
-1.  Build the TypeScript code:
+- Build the TypeScript code:
     ```bash
     npm run build
     ```
     This compiles the code into the `build` directory.
-
-2.  Run the server:
-    ```bash
-    npm run start
-    # OR directly using node:
-    # node build/index.js
-    ```
-
-The server will start and listen for MCP connections via standard input/output (stdio). You should see a message like `Calculator MCP Server connected via stdio and ready.` printed to your terminal's *standard error*. Keep this terminal window open while using the server with Claude Desktop.
 
 ## Connecting to Clients (Claude Desktop Example)
 
